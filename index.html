@@ -12,14 +12,12 @@
           <a-asset-item id="rub" src="models/CesiumMan.gltf"></a-asset-item>
           </a-assets>
           
-          <a-marker-camera type="pattern" url="pattern-ar.patt"> 
-            <a-entity 
-                      gltf-model="#rub"
-                      scale=" 0.2 0.2 0.2"
-                      >
-            </a-entity>
-          <a-entity camera></a-entity>
-      </a-marker-camera>
+          <a-marker-camera type="pattern" url="pattern-ar.patt">             
+                      <a-gltf-model="#rub"
+                      scale=" 0.2 0.2 0.2">
+                      
+            </a-marker-camera>
+       <a-entity camera></a-entity>
     </a-scene>
   </body>
 </html>
